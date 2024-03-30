@@ -1,9 +1,13 @@
-import DateCounter from "./DateCounter";
+// import DateCounter from "./DateCounter";
+import UseReducer from "./UseReducer";
+import UseState from "./UseState";
 
 function App() {
   return (
     <div>
-      <DateCounter />
+      {/* <DateCounter /> */}
+      <UseState />
+      <UseReducer />
     </div>
   );
 }
